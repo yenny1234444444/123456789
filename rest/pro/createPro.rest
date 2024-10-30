@@ -1,0 +1,12 @@
+POST http://localhost:4000/productos/createPro HTTP/1.1
+content-type: application/json
+
+{
+    "imagen":"martillo.jpg",
+    "nombre":"Papas de limón",
+    "marca":"Margarita",
+    "cantidad":"20",
+    "disponible":"20",
+    "valor":"3000",
+    "estado":"activo"
+}

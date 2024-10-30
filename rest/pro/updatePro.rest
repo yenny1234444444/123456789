@@ -1,0 +1,13 @@
+PUT http://localhost:4000/productos/updatePro HTTP/1.1
+content-type: application/json
+
+{
+    "imagen":"martillo.jpg",
+    "nombre":"Papas de pollo",
+    "marca":"Margarita",
+    "cantidad":"20",
+    "disponible":"20",
+    "valor":"3000",
+    "estado":"activo",
+    "id":"1"
+}

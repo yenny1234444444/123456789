@@ -1,0 +1,14 @@
+
+PUT http://localhost:4000/auth/updateUser HTTP/1.1
+content-type: application/json
+
+{
+    "nombreCompleto":"juan",
+    "tipoDocumento":"CC",
+    "documento":"6789432156",
+    "contrasena":"123htr",
+    "rol":"tienda",
+    "estado":"activo",
+    "correo":"andre435jh@gmail.com",
+    "id": "2"
+}

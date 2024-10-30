@@ -1,0 +1,12 @@
+POST http://localhost:4000/proveedor/createSup HTTP/1.1
+content-type: application/json
+
+{
+    "nombreCompleto":"Juan",
+    "tipoDocumento":"CC",
+    "documento":"3985671490",
+    "contrasena":"yr5123",
+    "rol":"proveedor",
+    "estado":"activo",
+    "correo":"elprogg.345@gmail.com"
+}

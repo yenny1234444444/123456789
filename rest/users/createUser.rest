@@ -1,0 +1,12 @@
+POST http://localhost:4000/auth/createUser HTTP/1.1
+content-type: application/json
+
+{
+    "nombreCompleto":"camilo",
+    "tipoDocumento":"CC",
+    "documento":"6789432156",
+    "contrasena":"123htr",
+    "rol":"tienda",
+    "estado":"activo",
+    "correo":"andre435jh@gmail.com"
+}
